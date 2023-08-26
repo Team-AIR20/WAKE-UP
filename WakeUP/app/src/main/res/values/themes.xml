@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WakeUP" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_1</item>
+        <item name="colorPrimaryVariant">@color/blue_2</item>
+        <item name="colorOnPrimary">@color/black_org</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_1</item>
+        <item name="colorSecondaryVariant">@color/blue_2</item>
+        <item name="colorOnSecondary">@color/black_org</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.WakeUP" parent="Base.Theme.WakeUP" />
+
+    <!--====================================== TextView Style ======================================-->
+    <style name="customTextViewColorBold" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black_org</item>
+        <item name="android:fontFamily">@font/esamanru_bold</item>
+    </style>
+    <style name="customTextViewColorMedium" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black_org</item>
+        <item name="android:fontFamily">@font/esamanru_medium</item>
+    </style>
+    <style name="customTextViewColorLight" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black_org</item>
+        <item name="android:fontFamily">@font/esamanru_light</item>
+    </style>
+    <!--============================================================================================-->
+</resources>

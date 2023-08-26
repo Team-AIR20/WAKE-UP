@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WakeUP!</string>
+    <string name="text_service_description">졸음 운전 방지 솔루션</string>
+    <string name="test_progressbar_description">운전자 졸음도</string>
+    <string name="text_empty">비어 있음</string>
+</resources>
